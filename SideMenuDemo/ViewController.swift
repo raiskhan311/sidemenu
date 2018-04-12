@@ -32,11 +32,11 @@ class ViewController: UIViewController {
     @objc func toggleSideMenu(){
         if sideMenuShow{
             sideMenuShow = false
-            sidemenuconstraints?.constant = -240
+            sidemenuconstraints?.constant = -240 //this for hide side menu
             
         }else{
             sideMenuShow = true
-            sidemenuconstraints?.constant = 0
+            sidemenuconstraints?.constant = 0 //this is for show side menu
             
         }
         
