@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var sidemenuconstraints: NSLayoutConstraint?
     
-    var sideMenuShow:Bool = false
+    var sideMenuShow:Bool = false // to take variable show hide side menu
 
     override func viewDidLoad() {
         super.viewDidLoad()
